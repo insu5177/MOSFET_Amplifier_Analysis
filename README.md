@@ -2,11 +2,14 @@
 Analysis of voltage gain in a MOSFET common-source amplifier.
 
 ## Question
-- MOSFET 공통 소스 증폭기에서 전압 이득은 어떻게 결정되는가?
-- 트랜스컨덕턴스(gm)는 전압 이득에 어떤 영향을 미치는가?
+- MOSFET 공통 소스 증폭기는 어떤 조건에서 최대 성능을 가지는가?
+- gm과 bias(Vgs)는 전압 이득과 선형성에 어떤 영향을 미치는가?
 
 ## Plan
-- MOSFET 전류 모델을 이용해 Id–Vgs 특성을 계산한다
-- Id–Vgs 데이터를 이용해 transconductance(gm)을 계산한다
-- 공통 소스 증폭기 모델을 구성한다
-- gm 변화에 따른 전압 이득 변화를 분석한다
+- MOSFET Id–Vgs 특성으로부터 gm 계산
+- 공통 소스 증폭기 모델 구성
+- Vgs (bias)에 따른 gm 변화 분석
+- gm에 따른 전압 이득 변화 분석
+- 입력 신호 크기에 따른 출력 파형 변화 (distortion) 분석
+
+## Result
